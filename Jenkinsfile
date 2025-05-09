@@ -40,7 +40,7 @@ pipeline {
         stage("Deploy") {
             steps {
                 script {
-                    docker compose()
+                    docker_compose()
                 }
             }
         }
